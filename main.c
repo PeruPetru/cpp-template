@@ -33,6 +33,8 @@ int main(int argc, char *argv[]) {
                     mkdir(dirName, 0700);
                 }
             }
+        } else if(!strcmp(argv[argn], "test") || !strcmp(argv[argn], "aaaa")) {
+            //
         }
     }
     return 0;
