@@ -34,7 +34,7 @@ int main(int argc, char *argv[]) {
                 }
             }
         } else if(!strcmp(argv[argn], "test") || !strcmp(argv[argn], "aaaa")) {
-            //
+            printf("works!");
         }
     }
     return 0;
